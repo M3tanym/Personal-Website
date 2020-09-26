@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Personal Website",
   "scripts": {
-    "dev": "webpack-dev-server -d",
-    "prod": "webpack -p"
+    "start": "webpack-dev-server -d",
+    "build": "webpack -p"
   },
   "author": "BAN",
   "license": "MIT",
