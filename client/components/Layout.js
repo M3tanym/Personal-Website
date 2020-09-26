@@ -1,11 +1,9 @@
 import React from "react";
 
 import { Button, Container, Grid, Typography } from "@material-ui/core";
-import {sendServerRequest} from "../utils/api";
 
 const Layout = () =>
 {
-	let request = {requestType: "postRequest", payload: "Test"};
 
 	return (
 		<Container>
@@ -19,10 +17,7 @@ const Layout = () =>
 				style={{height: "100vh"}}
 			>
 				<Grid item>
-					<Typography variant={"h2"}>Hello World!</Typography>
-				</Grid>
-				<Grid item>
-					<Button color={"primary"} onClick={() => sendServerRequest(request)}>Click Me To Hit API</Button>
+					<Typography variant={"h2"}>Ben Gillett</Typography>
 				</Grid>
 			</Grid>
 		</Container>
