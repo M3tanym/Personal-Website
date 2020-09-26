@@ -6,7 +6,7 @@
     "start": "webpack-dev-server -d",
     "build": "webpack -p"
   },
-  "author": "BAN",
+  "author": "Ben Gillett",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
