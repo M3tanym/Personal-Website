@@ -25,8 +25,7 @@ const Layout = (props) =>
 					<LinkButton href={"https://www.instagram.com/benjamin_gillett"} icon={<Instagram />}/>
 					<LinkButton href={"https://www.linkedin.com/in/ben-gillett"} icon={<LinkedIn />}/>
 					<LinkButton href={"https://www.github.com/M3tanym"} icon={<GitHub />}/>
-					<LinkButton href={"https://vsco.co/ben-gillett"} icon={<VSCOIcon />}/>
-					<LinkButton href={"https://medium.com/@bnjmn.gillett"} icon={<MediumIcon />}/>
+					<LinkButton href={"https://medium.com/@ben-gillett"} icon={<MediumIcon />}/>
 				</Grid>
 			</Grid>
 		</Container>
